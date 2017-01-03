@@ -3,7 +3,7 @@ var {Link, IndexLink} = require('react-router');
 
 var Nav = (props) => {
   return (
-    <div class="nav-bar">
+    <div className="nav-bar">
       <h2>Weather App</h2>
       <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
       <Link to="about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link>
